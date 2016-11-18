@@ -21,7 +21,6 @@ if (PHP_SAPI != 'cli'){
 $execHour = '03';
 $thisHour = date('H');
 
-// If is th
 if($thisHour != $execHour){
 	die();
 }
