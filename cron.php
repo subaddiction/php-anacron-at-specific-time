@@ -29,7 +29,7 @@ if($thisHour != $execHour){
 $output = date('d/m/Y H:i:s');
 
 // Operations log
-file_put_contents(dirname(__FILE__).'/log/'.date('d-m-Y_H-i-s').'.log', $output);
+//file_put_contents(dirname(__FILE__).'/log/'.date('d-m-Y_H-i-s').'.log', $output);
 
 
 ?>
